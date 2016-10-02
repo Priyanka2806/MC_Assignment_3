@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/lin1">
+        <EditText android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Name" />
+
+        <EditText android:id="@+id/txtCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the course/batch" />
+
+        <EditText android:id="@+id/txtSubject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the subject" />
+
+        <EditText android:id="@+id/txtEmailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Email ID" />
+
+        <Button android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keep me signed in."
+        android:id="@+id/switch1"
+        android:checked="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center" />
+</LinearLayout>
